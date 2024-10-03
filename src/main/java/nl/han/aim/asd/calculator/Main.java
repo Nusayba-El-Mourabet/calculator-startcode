@@ -33,9 +33,10 @@ public class Main {
         ExpressionReader reader = new ExpressionReader(); // Alleen deze maak ik zelf
         walker.walk(reader, tree); // En deze krijg ik weer cadeau
 
-        // TODO: reken de gegeven som uit
-//        System.out.println(expressionString + " = "
-//                + new Evaluator().evaluate(reader.getTopExpression()));
+        // Druk de AST af
+        System.out.println("Input: " + expressionString);
 
+        // TODO 4.3 1a -- Maak AST-classes in de expression package.
+//        System.out.println("AST: " + reader.getTopExpression());
     }
 }
