@@ -38,5 +38,12 @@ public class Main {
 
         // TODO 4.3 1a -- Maak AST-classes in de expression package.
 //        System.out.println("AST: " + reader.getTopExpression());
+
+        // TODO 4.3 2 -- Implementeer een Evaluator klasse met een
+        //  methode double eval(Expression ast) die de sommen uitrekent.
+        // Evalueer de expressie
+//        System.out.println("Evaluatie: " + expressionString + " = "
+//                + new Evaluator().evaluate(reader.getTopExpression()));
+
     }
 }

@@ -6,6 +6,6 @@ package nl.han.aim.asd.calculator;
 public class Evaluator {
 
     // TODO 4.3 2 -- Implementeer een Evaluator klasse met een
-    //  methode int eval(Expression ast) die de sommen uitrekent.
+    //  methode double eval(Expression ast) die de sommen uitrekent.
 
 }
